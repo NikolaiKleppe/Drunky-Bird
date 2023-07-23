@@ -23,7 +23,7 @@ public class ScoreDetector : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.gameObject.layer == 3) {
-            logicManager.addScore(1);
+            logicManager.AddScore(1);
         }
     }
 
