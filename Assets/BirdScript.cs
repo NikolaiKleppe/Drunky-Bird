@@ -25,9 +25,9 @@ public class BirdScript : MonoBehaviour {
             myRigidbody.velocity = Vector2.up * flapStrength;
         }
 
-        //if (transform.position.y > 17 || transform.position.y < -17) {
-        //    logicManager.GameOver();
-        //}
+        if (transform.position.y > 17 || transform.position.y < -17) {
+            logicManager.GameOver();
+        }
 
     }
      
